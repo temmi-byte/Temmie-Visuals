@@ -1,0 +1,57 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .sidebar {
+    background-color: rgba(18, 18, 18, 0.9);
+    color: #ffffff;
+}
+
+.dark-mode .sidebar ul li a {
+    color: #e0e0e0;
+}
+
+.dark-mode .hero {
+    background-color: #0d0e0c;
+    color: #e0e0e0;
+}
+
+.dark-mode #bio {
+   background-color: #252222;
+   color: #e0e0e0;
+}
+
+.dark-mode .portfolio {
+   background-color: #0c0909;
+}
+
+.dark-mode #contact {
+    background-color: #0c0909;
+}
+
+.dark-mode #services {
+    background-color: #181616;
+}
+
+.dark-mode .service-item {
+    background-color: #1a1818;
+    color: #e0e0e0;
+}
+
+.dark-mode footer {
+    background-color: #0d0e0c;
+    color: #e0e0e0;
+}
+
+.dark-mode .modal {
+    background-color: rgb(0, 0, 0, 0.8);;
+}
+
+.dark-mode .sidebar ul li {
+    color: #e0e0e0;
+}
+
+.dark-mode .close {
+    color: #e0e0e0;
+}

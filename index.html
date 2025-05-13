@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Temmie Visuals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark-mode.css" id="darkModeStyle" disabled>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+            <!-- Toggle Button -->
+        <button id="toggle-btn" class="toggle-btn"><i class="fas fa-bars"></i></button>
+         
+        <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle" data-aos="fade-up">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </div>
+
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i></a>Home</li>
+                <li><a href="#gallery"><i class="fas fa-images"></i></a>Gallery</li>
+                <li><a href="#services"><i class="fas fa-briefcase"></i></a>Services</li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i></a>Contact</li>
+            </ul>
+        </div>
+
+    <!-- Home Section -->
+    <section id="home" class="hero"> 
+        <div data-aos="fade-up">
+        <h1 class="pet">Temmi Loluwa</h1><br><br>
+        </div>
+        <div class="subtitle" data-aos="fade-up">
+           I'm a  <span id="typed-text"></span><br><br><br>
+          </div>
+        <a href="#gallery" class="btn" id="scrollBtn">View My Work</a>
+        <!-- Add this inside your hero section -->
+          <div class="down-arrows">
+           <span></span>
+             <span></span>
+  </div>
+  </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section id="bio">
+        <div data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>
+          Hi, my name is Temmiloluwa.  I'm a passionate mobile photographer / cinematographer, and a front-end developer, based in Kwara state, Nigeria. I capture stunning moments with just a phone, proving that storytelling is about vision and not just equipments. I also create websites to merge technology with creativity.
+        </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div data-aos="fade-up">
+        <h2>What I Offer</h2>
+        </div>
+        <div class="service-list">
+        <div class="service-item" data-aos="fade-up">
+            <h3> Photography</h3><br>
+            <p> Mobile event Photography, model, portraits, and product photography.</p>
+        </div>
+        <div class="service-item" data-aos="fade-up">
+        <h3> Videography</h3><br>
+        <p>Events Brand and Real estate videos, model and fashion video shoots, social media content creation.</p>
+        </div>
+        <div class="service-item" data-aos="fade-up">
+            <h3> Web Development</h3><br>
+            <p> Simple interactive websites for small businesses and creators, HTML email, Blog sites, Web Apps.</p>
+        </div>
+        </div>
+    </section>
+    
+    <div id="fullscreenModal" class="modal">
+        <span id="closeModal" class="close">&times;</span>
+        <img id="fullscreenImage" src="" alt="Fullscreen image">
+       </div>
+
+    <!-- Portfolio Section -->
+    <section id="gallery">
+        <div class="gallery" data-aos="fade-up">
+            <div class="item" data-aos="fade-up">
+                <div data-aos="fade-up">
+                <p class="tep">Photography Projects</p><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <img src="smile.jpg" alt="night photography" class="thumbnail"><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <img src="sash.png" alt="night photography" class="thumbnail"><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <img src="fash.jpg" alt="model photography"  class="thumbnail"><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <img src="stud.jpg" alt="night photography" class="thumbnail"><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <img src="product.jpg" alt="product photography"  class="thumbnail"><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <img src="birthday.png" alt="birthday photography"  class="thumbnail"><br><br>
+                </div>
+            </div>
+            <div class="item" data-aos="fade-up">
+                <div data-aos="fade-up">
+                <p class="tep">Cinematography Projects</p><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <video controls>
+                    <source src="brand.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <video controls>
+                    <source src="real.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video><br><br>
+                </div>
+                <div data-aos="fade-up">
+                <video controls>
+                    <source src="aestetic.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video><br><br>
+                </div>
+            </div>
+            <div class="item" data-aos="fade-up">
+                <div class="project">
+                    <div data-aos="fade-up">
+                    <p class="tep">Web Development Projects</p><br><br>
+                    </div>
+
+                    <div data-aos="fade-up">
+                        <img src="blog.png" alt="beyond temmie"  class="thumbnail"><br><br>
+                        </div>
+                        <div data-aos="fade-up">
+                        <a href="https://temmi-byte.github.io/beyondtemmie/" target="" class="btn-2">Visit my Blog Site</a><br><br><br>
+                        </div>
+
+                        <div data-aos="fade-up">
+                            <img src="lani.png" alt="lani apparel"  class="thumbnail"><br><br>
+                            </div>
+                            <div data-aos="fade-up">
+                            <a href="https://lani-apparel.netlify.app" target="" class="btn-2">View fashion brand website</a><br><br><br>
+                            </div>
+                    <div data-aos="fade-up">
+                    <img src="count.jpg" alt="Countdown Website"  class="thumbnail"><br><br>
+                    </div>
+                    <div data-aos="fade-up">
+                    <a href="https://tangerine-souffle-4ba545.netlify.app/" target="" class="btn-2">Visit Countdown Website</a><br><br>
+                    </div>
+                    <div data-aos="fade-up">
+                    <img src="tech.jpg" alt="tech website"  class="thumbnail"><br><br>
+                    </div>
+                    <div data-aos="fade-up">
+                    <a href="https://temmi-tech.netlify.app/" target="" class="btn-2">Visit Tech Website</a><br><br><br>
+                    </div>
+                    <div data-aos="fade-up">
+                    <img src="cal.png" alt="tech website"  class="thumbnail"><br><br>
+                    </div>
+                    <div data-aos="fade-up">
+                    <a href="https://shimmering-duckanoo-5068e5.netlify.app/" target="" class="btn-2">View BTC Calculator</a><br><br><br>
+                    </div>
+                    <div data-aos="fade-up">
+                    <img src="log.png" alt="tech website"  class="thumbnail"><br><br>
+                    </div>
+                    <div data-aos="fade-up">
+                    <a href="https://relaxed-dusk-c8533a.netlify.app/" target="" class="btn-2">Visit Login/Register Page</a><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <a href="https://www.instagram.com/temmie_visuals?igsh=MWlhMGQ4eTRzNGZjdg==" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://x.com/temmie_visuals?t=7EH-3XRxachUKejaiRSvOG&s=09" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://wa.me/2348027715673" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href=" https://www.linkedin.com/in/temmie-loluwa-ba2459286" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Temmie Visuals. All rights reserved.</p>
+        <p class="quote">Bringing Stories to Life Through My Lens. Merging Technology With Creativity.</p>
+    </footer>
+    
+    <button onclick="scrollToTop()" class="back-to-top">↑</button>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  new Typed('#typed-text', {
+    strings: [ "Multimedia Technologist", "Freelancer", "Mobile Photographer", "Mobile Videographer", "Designer", "Developer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+  });
+</script>
+</body>
+</html>
